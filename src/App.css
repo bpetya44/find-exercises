@@ -48,6 +48,10 @@ body {
   flex-wrap: wrap;
 }
 
+.react-horizontal-scrolling-menu--scroll-container {
+  padding: 10px 0px;
+}
+
 .detail-image {
   width: 729px;
   height: 742px;

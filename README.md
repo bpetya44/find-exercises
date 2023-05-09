@@ -28,12 +28,12 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## More Info
 
-Make sure you have all the dependencies in the correct version as listed in package.json file and
+Make sure you have all the dependencies in the correct version as listed in package.json file
 
 `npm i --legacy-peer-deps`
 
 
-or you can install them manually:
+or you can install them manually if you wish to update the code by urself:
 
 [Material UI](https://mui.com/material-ui/getting-started/installation/)
 
@@ -42,7 +42,7 @@ Material UI uses [Emotion](https://emotion.sh/docs/introduction) its default sty
 Emotion is a library designed for writing css styles with JavaScript. 
 
    ```js
-        npm install @mui/material @emotion/react @emotion/styled
+        npm install @mui/material @emotion/react @emotion/styled @dotenv
    ```
 
 We also going to use Material UI icons
@@ -58,7 +58,7 @@ We also going to use Material UI icons
 [React horizontal scrolling menu](https://www.npmjs.com/package/react-horizontal-scrolling-menu)
 
 ```js
-    npm i react-horizontal-scrolling-menu
+    npm i react-horizontal-scrolling-menu@2.7.1
 ```
 [React Loader Spinner](https://www.npmjs.com/package/react-loader-spinner)
 ```js
