@@ -5,7 +5,16 @@ import Logo from "../assets/icons/icon-4.png";
 
 const Navbar = () => {
   return (
-    <Stack direction='row' justifyContent='space-around' sx={{ gap: {xs: '40px', sm: '122px'}, mt: {sm:'32px', xs:'20px'}, justifyContent: 'none'}} px='20px'>
+    <Stack
+      direction="row"
+      justifyContent="space-around"
+      sx={{
+        gap: { xs: "40px", sm: "122px" },
+        mt: { sm: "32px", xs: "20px" },
+        justifyContent: "none",
+      }}
+      px="20px"
+    >
       <Link to="/">
         <img
           src={Logo}
@@ -13,7 +22,7 @@ const Navbar = () => {
           style={{ width: "40%", height: "auto", margin: "0 20px" }}
         />
       </Link>
-      <Stack direction="row" gap='40px' fontSize='24px' alignItems='flex-end' >
+      <Stack direction="row" gap="40px" fontSize="24px" alignItems="flex-end">
         <Link
           to="/"
           style={{
