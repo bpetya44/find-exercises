@@ -21,10 +21,14 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => {
       }}
       onClick={() => {
         setBodyPart(item);
-        window.scrollTo({ top: 1800, behavior: "smooth" });
+        if (window.innerWidth < 768) {
+          window.scrollTo({ top: 920, behavior: "smooth" })
+        } else {
+          window.scrollTo({ 
+            top: 1500, behavior: "smooth"
+        })
       }
-      
-      }
+      }}
     >
       <img
         src={Icon}
