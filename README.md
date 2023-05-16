@@ -65,10 +65,12 @@ We also going to use Material UI icons
     npm i react-loader-spinner
 ```
 
-This project is using data from 
-[RpidAPI](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb/)
-
-Make sure in the root directory of your project you have .env file, 
+Make sure in the root directory of your project you rename the .env-example file to .env, 
 where you securely store your API Key in the format 
 
 `REACT_APP_RAPID_API_KEY=your_key`
+
+This project is using data from 
+[RpidAPI - ExerciseDB](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb/)
+[RpidAPI -Youtube Search and Download](https://rapidapi.com/h0p3rwe/api/youtube-search-and-download)
+

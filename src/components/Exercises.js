@@ -61,7 +61,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
         ))}
       </Stack>
       <Stack alignItems="center" mt="100px">
-        {exercises.length > 9 && (
+        {exercises?.length > 9 && (
           <Pagination
             color="standard"
             variant="outlined"
