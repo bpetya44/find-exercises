@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {Stack} from "@mui/material";
+import { Stack } from "@mui/material";
 import Logo from "../assets/icons/icon-4.png";
 
 const Navbar = () => {
@@ -34,8 +34,17 @@ const Navbar = () => {
           Home
         </Link>
         <a
-          href="#exercise"
-          style={{ textDecoration: "none", color: "#3a1212" }}
+          href="#exercises"
+          style={{
+            textDecoration: "none",
+            color: "#3a1212",
+          }}
+          onMouseEnter={(e) => {
+            e.target.style.borderBottom = "3px solid #ff2625";
+          }}
+          onMouseLeave={(e) => {
+            e.target.style.borderBottom = "none";
+          }}
         >
           Exercises
         </a>
